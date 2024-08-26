@@ -31,8 +31,22 @@ The current installation is done with `npm` v8.19.4 and `node` v16.20.2.
 
 To use the InSoLiTo API, there is the following example:
 
+Search the most co-occurrent tools of trimAl (10th most co-occurrent tools by default):
+```
+http://localhost:3000/openebench?tool=trimAl
+```
+
+Limit the query for the 2 most co-occurrent tools:
 ```
 http://localhost:3000/openebench?tool=trimAl&limit=2
 ```
 
-The default limit of tools displayed is 10.
+List of tools found in the database (limit by 10 as default):
+```
+http://localhost:3000/listTools
+```
+
+List of tools found in the database, limited by 5 and skip the first tool:
+```
+http://localhost:3000/listTools?limit=5&skip=1
+```
