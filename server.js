@@ -17,7 +17,7 @@ app.use(
 
 // Route to handle the GET request and serve the page
 app.get('/openebench', (req, res) => {
-  res.sendFile(path.join(__dirname,'..','REST', 'static', 'index.html'));
+  res.sendFile(path.join(__dirname,'dist', 'index.html'));
 });
 
 app.listen(port, () => {

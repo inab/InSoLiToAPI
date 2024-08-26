@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const PATHS = {
 	src: path.resolve(__dirname,'src'),
-	dist: path.resolve(__dirname,'..','REST','static')
+	dist: path.resolve(__dirname,'dist')
 };
 
 
