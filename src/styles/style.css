@@ -8,60 +8,18 @@ html,body {
     height: 100vh;
     background-color: white;
 }
-.sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 20;
-    top: 0;
-    right: 0;
-    background: white;
-    /* padding: 1em; */
-    color: black;
 
-    overflow-x: hidden;
-    transition: 0.5s;
-    box-sizing: border-box;
-    padding-left: 10px;
-    /* padding-top: 60px; */
-    /* border-left:3px solid #0b579f; */
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+#imglogo{
+    width: 10em;
+    vertical-align: middle;
+    margin: 20px 10px;
 }
 
-.sidebar div {
-    /* padding: 8px 8px 8px 32px; */
-    /* text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block; */
-    transition: 0.3s;
-}
-
-.column {
-    padding: 5px;
-}
-
-.rangesli {
-    width: 200px;
-    transition: 0s;
-}
-
-div.ui-slider-range.ui-widget-header {
-    background: #0b579f;
-    transition:0s;
-}
-
-.rangeyears {
-    border: 0;
-    background: #f1f1f1;
-    margin: auto;
-    color: #0b579f;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 5px;
-    width: 200px;
-    font-size: 16px;
+#logo{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    z-index: 1;
 }
 
 div.vis-network div.vis-navigation div.vis-button {
@@ -169,12 +127,12 @@ div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
     padding: 2px 2px;
     font-size: 11px;
     color: black;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-#context-menu .topicmenu button:hover {
+/* #context-menu .topicmenu button:hover {
     background: #FCD197;
-}
+} */
 
 #nameTool {
     color:white;
@@ -246,50 +204,9 @@ div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
 display:none
 }
 
-#tooltopic_autocomplete{
-    width: 200px;
-}
-.ui-autocomplete {
-    max-height: 200px;
-    width: 200px;
-    overflow-y: auto;
-    /* prevent horizontal scrollbar */
-    overflow-x: hidden;
-    /* add padding to account for vertical scrollbar */
-    /* padding-right: 20px; */
-    font: 12pt arial;
-    padding:0px;
-    position:absolute;
-} 
 
-.boxAutocomplete{
-    display: flex;
-    align-items:center;
-    max-width: 200px;
-    padding: 1px;
-}
 
-.TextAutocomplete{
-    vertical-align:middle;
-    margin-left: 3px;
-}
 
-.typeSoft{
-    font-size: small;
-    font-weight: bold;
-    margin-left: 3px;
-}
-
-#yearColumn{
-    display:none;
-}
-
-.close-icon{
-    width: 16px;
-    height: 23px;
-    float: left;
-    padding-left: 7px;
-}
 
 .name-topic{
     overflow: hidden;
