@@ -20,6 +20,12 @@ html,body {
     height: 10%;
     position: absolute;
     z-index: 1;
+    transition: all .3s ease-in-out;
+}
+
+#logo:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 div.vis-network div.vis-navigation div.vis-button {
