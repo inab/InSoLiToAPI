@@ -1,0 +1,5 @@
+{
+  "serverUrl": "http://localhost:7474/db/neo4j/tx",
+  "serverUser": "neo4j",
+  "serverPassword": "neo4j"
+}
