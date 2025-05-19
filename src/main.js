@@ -12,7 +12,7 @@ import 'vis-network/dist/dist/vis-network.min.css';
 import './styles/style.css';
 
 //JSON
-import sampleConfig from './config_local.json';
+import sampleConfig from './config.json';
 
 //Images
 import ToolImage from './images/tool_centered_sm.png';
@@ -214,8 +214,6 @@ return response.json(); // parses JSON response into native JavaScript objects
 }
   
 function updateWithCypher(cypherQuery){
-	console.log(cypherQuery)
-	cypherQuery = 'MATCH (i)-[o]-(p) RETURN i, o, p LIMIT 10';
 	var inputData= {
 		'statements': [
 			{

@@ -88,7 +88,7 @@ div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
     z-index: 10000;
     width: 150px;
     background: white;
-    transform: scale(1);
+    transform: scale(0);
     transform-origin: top left;
     background-color: #0b579f;
 }
